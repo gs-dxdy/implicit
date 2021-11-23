@@ -68,7 +68,7 @@ def locate_cuda():
         "-gencode=arch=compute_70,code=sm_70",
         "-gencode=arch=compute_70,code=compute_70",
         "--ptxas-options=-v",
-        "--extended-lambda",
+        "--expt-extended-lambda",
         "-O2",
     ]
 
